@@ -16,3 +16,6 @@
 ## https://sportsdata.io/developers/api-documentation/nhl
 ### https://www.kaggle.com/datasets/martinellis/nhl-game-data
 #### https://pypi.org/project/nhlstats/
+
+#Timeline tracker: ![Screenshot 2023-05-25 221858](https://github.com/rbrennan55/project-sports-analytics-NHL/assets/130711180/022492b5-fc34-487e-b4cb-bd1f50175a56)
+
