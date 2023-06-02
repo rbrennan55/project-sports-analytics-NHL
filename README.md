@@ -27,8 +27,8 @@ url = "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions"
 ```
 
 Due to the format of the "season" needed as a parameter used by the NHL API, the dates were formated from '1991' to 19911992' 
-
-![](images/winingteams.png)![](images/losingteams.png)
+### Winning Teams         Losing Teams
+![](images/winningteams.png)![](images/losingteams.png)
 
 The following API's were used:
 ```
