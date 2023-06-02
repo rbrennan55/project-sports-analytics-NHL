@@ -22,7 +22,6 @@ The Stanley Cup is the hardest ttophy to win in all professional sports, awarded
 
 ## Data Collection
 The data used for this analysis was collected from the Nation Hockey Leagues free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player names, ages, nationalities, and team affiliations for each season.  As well as all the statistical inforamtion for each player.  The following API's were used
-- 
 
 ## Analysis
 The main focus of this project is to compare the age and nationality distributions of players on the winning and losing teams. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.
