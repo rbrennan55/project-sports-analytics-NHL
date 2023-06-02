@@ -1,9 +1,10 @@
 # project-sports-analytics-NHL
+_(The NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.)_
 
-
+## Overview
 This project contains statistical information regarding the Stanley Cup winning teams and the corresponding losing teams from 1991-1992 to the 2021-2022 season. The purpose of this project is to analyze the age and nationality distributions of players on these teams and examine any significant differences between the winners and losers and if there are any statistical significant difference between the team.
 
-Note: The 2004-2005 season was player work stopage and therefore NHL suspended the season.  Only 29 Stanley Cup seasons were analysed
+Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  Only 29 Stanley Cup seasons were analysed
 
 ## Table of Contents
 
@@ -17,10 +18,11 @@ Note: The 2004-2005 season was player work stopage and therefore NHL suspended t
 
 
 ## Background
-The Stanley Cup is the ultimate prize in professional ice hockey, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs. Understanding the composition of winning and losing teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
+The Stanley Cup is the hardest ttophy to win in all professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must win 16 games in order to win "The Cup". Understanding the composition of winning and losing teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
 ## Data Collection
-The data used for this analysis was collected from various reliable sources, including official NHL records, team websites, and reputable sports databases. It includes information such as player names, ages, nationalities, and team affiliations for each season's Stanley Cup-winning and losing teams.
+The data used for this analysis was collected from the Nation Hockey Leagues free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player names, ages, nationalities, and team affiliations for each season.  As well as all the statistical inforamtion for each player.  The following API's were used
+- 
 
 ## Analysis
 The main focus of this project is to compare the age and nationality distributions of players on the winning and losing teams. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.
@@ -35,4 +37,4 @@ This project is an ongoing effort, and future updates may include additional sea
 By examining the age and nationality distributions of players on Stanley Cup-winning and losing teams since 1991, this project aims to provide insights into the factors that contribute to success in ice hockey. The findings of this analysis may be valuable for coaches, players, and fans alike, as they shed light on the characteristics of championship teams.
 
 ## Team Members
-Joel Demontigny,Ravina Kolsawala, Ron Brennan
+Joel Demontigny, Ravina Kolsawala, Ron Brennan
