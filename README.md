@@ -21,7 +21,40 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 The Stanley Cup is the hardest ttophy to win in all professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must win 16 games in order to win "The Cup". Understanding the composition of winning and losing teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
 ## Data Collection
-The data used for this analysis was collected from the Nation Hockey Leagues free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player names, ages, nationalities, and team affiliations for each season.  As well as all the statistical inforamtion for each player.  The following API's were used
+The data used for this analysis was collected from the Nation Hockey Leagues free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player names, ages, nationalities, and team affiliations for each season.  As well as all the statistical inforamtion for each player.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners and losers for the past 30 years (1991-2022).  To obtain this information, a scrap of:
+```
+url = "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions"
+```
+
+Due to the format of the "season" needed as a parameter used by the NHL API, the dates were formated from '1991' to 19911992' 
+
+![](images/winingteams.png)![](images/losingteams.png)
+
+The following API's were used:
+```
+Teams Information
+GET https://statsapi.web.nhl.com/api/v1/teams: Returns a list of data about
+all teams including their id, venue details, division, conference and franchise information.
+```
+Once the Team ID's were identified all the NHL
+```
+Team Roster
+GET https://statsapi.web.nhl.com/api/v1/team/ID?expand=team.roster&season=20142015: Returns the roster for the specified season
+```
+
+```
+Player Details and Characteristics
+GET https://statsapi.web.nhl.com/api/v1/people/<ID>:  Returns details for a player, such as birth year and Nationality
+```
+
+```
+Player Statistics
+GET https://statsapi.web.nhl.com/api/v1/people/<ID>/stats?stats=statsSingleSeason&season=<SEASON>: Returns all statistics for that player from specified season
+```
+
+
+
+
 
 ## Analysis
 The main focus of this project is to compare the age and nationality distributions of players on the winning and losing teams. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.
