@@ -78,19 +78,13 @@ New dataframes were created for both the winning and losing Stanley Cup to hold 
 >
 >![](images/winninglosingteamsavgageperseason.png)
 
-Nationalities of the Stanley Cup Winning Team in 1991 and 2022 dataframes were generated in order to evaluate a trend in the nationality make-up of the teams.
+Nationalities of the Stanley Cup Winning Team in 1991 and 2022 dataframes were generated in order to evaluate a trend in the nationality make-up of the teams in the 30 year span.
 
 >player_nat_1992.value_counts()/player_nat_2022.value_counts()
 >
 >![](images/winningteamnationality19912022.png)
 
-
-
-
-
-
-
-Statistics of the player was then compiled and appended to the winning and loosing dataframes
+Statistics of all the players were then compiled and appended to the winning and loosing dataframes
 
 ```
 Player Statistics
@@ -99,6 +93,16 @@ GET https://statsapi.web.nhl.com/api/v1/people/<ID>/stats?stats=statsSingleSeaso
 Returns all statistics for that player from specified season
 ```
 
+The stats that were comilied for bothe winning and losing teams were:
+- Penalty Minutes (PIM)
+- PowerPlay Goals (PPG)
+- Over Time Winning Gola (OTG)
+- Plus/Minus (+/-)
+- Point (Pts)
+
+>winning_df.head()/losing_df.head()
+>
+>![](images/playerstatswinninglosingperseason.png)
 
 
 
