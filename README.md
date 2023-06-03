@@ -26,9 +26,9 @@ The data used for this analysis was collected from the Nation Hockey Leagues fre
 url = "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions"
 ```
 
-
-Winning/Losing Teams.head()         
-![](images/winninglosingteams.png)
+>_Winning/Losing Teams.head()_
+>
+>![](images/winninglosingteams.png)
 
 Due to the format of the "season" needed as a parameter used by the NHL API, the dates were formated from '1991' to 19911992' 
 
@@ -36,18 +36,29 @@ Once the winning and loosing teams were identified from the awarded 29 Stanley C
 
 ```
 Teams Information
-GET https://statsapi.web.nhl.com/api/v1/teams: Returns a list of data about
-all teams including their id, venue details, division, conference and franchise information.
+GET https://statsapi.web.nhl.com/api/v1/teams
+
+Returns a list of data aboutall teams including their id, venue details, division, conference and franchise information.
 ```
 
 The Team ID's were used to construct two (2) dataframes to associate the Team ID with the Winning teams and losing teams
 
-Winning/Losing with ID's Teams.head()         
-![](images/winninglosingteamswithid.png)
+>_Winning/Losing with ID's Teams.head()_
+>
+>![](images/winninglosingteamswithid.png)
+
+Using the Team ID's and the seasons, the winning and losing dataframes could be expanded to include the rosters and player ID 
 ```
 Team Roster
-GET https://statsapi.web.nhl.com/api/v1/team/ID?expand=team.roster&season=20142015: Returns the roster for the specified season
+GET https://statsapi.web.nhl.com/api/v1/team/<ID>?expand=team.roster&season=<seasom>
+
+Returns the roster for the specified season
 ```
+>_Winning/Losing with PlaerID's.head()_
+>
+>![](images/winninglosingteamsplayerids.png)
+
+
 
 ```
 Player Details and Characteristics
