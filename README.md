@@ -9,6 +9,7 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 ## Table of Contents
 
 - [Background](#background)
+- [Limitations](#limitations)
 - [Data Collection](#data-collection)
 - [Analysis](#analysis)
 - [Results](#results)
@@ -19,6 +20,13 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 
 ## Background
 The Stanley Cup is the hardest ttophy to win in all professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must win 16 games in order to win "The Cup". Understanding the composition of winning and losing teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
+
+## Limitations
+A few limitations were identified from the beginning of this project.
+- This is our fist project in Datavisualization, therefore the experience level for the team was low
+- Free APIs were used as there was not a budget to purchase additional APIs
+- The NHL APIs were missing data for the 1990-1991 Minnisota Norht Stars as the data was not saved when the team was reloacted to Dallas.  Therefore the 1990 - 1991 season was removed leave only 29 season of Stanley Cup awards as the 2004 - 2005 season was cancelled due to the NHL labour dispute  
+
 
 ## Data Collection
 The data used for this analysis was collected from the Nation Hockey Leagues free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player names, ages, nationalities, and team affiliations for each season.  As well as all the statistical inforamtion for each player.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners and losers for the past 30 years (1991-2022).  To obtain this information, a scrap of:
