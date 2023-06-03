@@ -26,7 +26,7 @@ The data used for this analysis was collected from the Nation Hockey Leagues fre
 url = "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions"
 ```
 
->_Winning/Losing Teams.head()_
+>_stanleycup_winner_cleaned_df.head()/stanleycup_losing_cleaned_df.head()_
 >
 >![](images/winninglosingteams.png)
 
@@ -43,9 +43,9 @@ Returns a list of data aboutall teams including their id, venue details, divisio
 
 The Team ID's were used to construct two (2) dataframes to associate the Team ID with the Winning teams and losing teams
 
->_Winning/Losing with ID's Teams.head()_
+>_stanleycup_winning_merge_byname_ID.head()/stanleycup_losing_merge_byname_ID.head()_
 >
->![](images/winninglosingteamswithid.png)
+>![](images/winninglosingteamswithids.png)
 
 Using the Team ID's and the seasons, the winning and losing dataframes could be expanded to include the rosters and player ID 
 ```
@@ -54,12 +54,12 @@ GET https://statsapi.web.nhl.com/api/v1/team/<ID>?expand=team.roster&season=<sea
 
 Returns the roster for the specified season
 ```
->_Winning/Losing with PlaerID's.head()_
+>_winning_df.head()/losing_df.head()_
 >
 >![](images/winninglosingteamsplayerids.png)
 
 
-
+The winning and losing dataframes
 ```
 Player Details and Characteristics
 GET https://statsapi.web.nhl.com/api/v1/people/<ID>:  Returns details for a player, such as birth year and Nationality
