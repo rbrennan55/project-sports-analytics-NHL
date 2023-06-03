@@ -25,7 +25,7 @@ The Stanley Cup is the hardest ttophy to win in all professional sports, awarded
 A few limitations were identified from the beginning of this project.
 - This is our fist project in Datavisualization, therefore the experience level for the team was low
 - Free APIs were used as there was not a budget to purchase additional APIs
-- The NHL APIs were missing data for the 1990-1991 Minnisota Norht Stars as the data was not saved when the team was reloacted to Dallas.  Therefore the 1990 - 1991 season was removed leave only 29 season of Stanley Cup awards as the 2004 - 2005 season was cancelled due to the NHL labour dispute  
+- The NHL APIs were missing data for the 1990-1991 Minnisota North Stars as the data was not kept when the team was reloacted to Dallas.  Therefore the 1990 - 1991 season was removed leave only 29 seasons of awarded Stanley Cups as the 2004 - 2005 season was cancelled due to the NHL labour dispute.  
 
 
 ## Data Collection
