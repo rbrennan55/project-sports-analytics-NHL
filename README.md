@@ -38,7 +38,7 @@ Once the winning and loosing teams were identified from the awarded 29 Stanley C
 Teams Information
 GET https://statsapi.web.nhl.com/api/v1/teams
 
-Returns a list of data aboutall teams including their id, venue details, division, conference and franchise information.
+Returns a list of data about all teams including their ID's, venue details, division, conference and franchise information.
 ```
 
 The Team ID's were used to construct two (2) dataframes to associate the Team ID with the Winning teams and losing teams
@@ -59,15 +59,41 @@ Returns the roster for the specified season
 >![](images/winninglosingteamsplayerids.png)
 
 
-The winning and losing dataframes
+The player ID was used to get the player characteristics using the player ID and appended to the winning and losing dataframes 
 ```
 Player Details and Characteristics
-GET https://statsapi.web.nhl.com/api/v1/people/<ID>:  Returns details for a player, such as birth year and Nationality
+GET https://statsapi.web.nhl.com/api/v1/people/<ID>
+
+Returns details for a player, such as birth year and Nationality. 
+
+The birthyear was used to extrapolate the age of the player the season the player won/lost the Stanley Cup
 ```
+>_winning_df.head()/losing_df.head()_
+>
+>![](images/winninglosingteamsplayeridsdetails.png)
+
+New dataframes were created for both the winning and losing Stanley Cup to hold the average age per season of the team(s).  
+
+>avg_player_age_winning_df.head()/avg_player_age_losing_df
+>
+>![](images/winninglosingteamsplayeridsdetails.png)
+
+Nationalities of the Stanley Cup Winning Team in 1991 and 2022 dataframes were generated in order to evaluate a trend in the nationality make-up of the teams.
+
+
+
+
+
+
+
+
+Statistics of the player was then compiled and appended to the winning and loosing dataframes
 
 ```
 Player Statistics
-GET https://statsapi.web.nhl.com/api/v1/people/<ID>/stats?stats=statsSingleSeason&season=<SEASON>: Returns all statistics for that player from specified season
+GET https://statsapi.web.nhl.com/api/v1/people/<ID>/stats?stats=statsSingleSeason&season=<SEASON>
+
+Returns all statistics for that player from specified season
 ```
 
 
