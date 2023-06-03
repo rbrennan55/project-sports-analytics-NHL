@@ -90,7 +90,7 @@ Nationalities of the Stanley Cup Winning Team in 1991 and 2022 dataframes were g
 
 >player_nat_1992.value_counts()/player_nat_2022.value_counts()
 >
->![](images/winningteamnationality19912022.png)
+>![](images/winningteamnationality19912022s.png)
 
 Statistics of all the players were then compiled and appended to the winning and loosing dataframes
 
