@@ -76,10 +76,13 @@ New dataframes were created for both the winning and losing Stanley Cup to hold 
 
 >avg_player_age_winning_df.head()/avg_player_age_losing_df
 >
->![](images/winninglosingteamsplayeridsdetails.png)
+>![](images/winninglosingteamsavgageperseason.png)
 
 Nationalities of the Stanley Cup Winning Team in 1991 and 2022 dataframes were generated in order to evaluate a trend in the nationality make-up of the teams.
 
+>player_nat_1992.value_counts()/player_nat_2022.value_counts()
+>
+>![](images/winningteamnationality19912022.png)
 
 
 
