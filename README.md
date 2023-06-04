@@ -12,7 +12,6 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 - [Limitations](#limitations)
 - [Data Collection](#data-collection)
 - [Analysis](#analysis)
-- [Results](#results)
 - [Future Work](#future-work)
 - [Conclusion](#conclusion) 
 - [Team Members](#team-members)
@@ -117,9 +116,6 @@ The stats that were comilied for bothe winning and losing teams were:
 
 ## Analysis
 The main focus of this project is to compare the age and nationality distributions of players on the winning and losing teams. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.
-
-## Results
-The results of the analysis will be presented in the form of visualizations and statistical summaries. We will explore trends and patterns in the age and nationality distributions of players, highlighting any noteworthy differences between the winning and losing teams.
 
 ## Future Work
 This project is an ongoing effort, and future updates may include additional seasons, more in-depth analysis, and comparative studies with other championships. We welcome contributions and suggestions from the community to further enhance this repository.
