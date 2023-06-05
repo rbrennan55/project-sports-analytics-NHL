@@ -12,8 +12,8 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 - [Limitations](#limitations)
 - [Data Collection](#data-collection)
 - [Analysis](#analysis)
-- [Future Work](#future-work)
 - [Conclusion](#conclusion) 
+- [Future Work](#future-work)
 - [Team Members](#team-members)
 
 
@@ -111,17 +111,37 @@ The stats that were comilied for bothe winning and losing teams were:
 >
 >![](images/playerstatswinninglosingperseason.png)
 
-
-
-
 ## Analysis
-The main focus of this project is to compare the age and nationality distributions of players on the winning and losing teams. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.
+The main focus of this project is to compare the nationality distributions and play statistics of players on the winning and losing teams. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.  Our analysis is as follows:
+- There is a noticeable increase in European players when comparing the most recent winning team's roster vs that of 1991-1992. Canadian representation has had a significant reduction, and the U.S. remains constant, but most recently had the lowest representation.
+- The Canadian player reduction in representation was most significant impacted in the decade of 2003-2012 and has remained consistent since.
+- The correlation between PPG vs Pts is 0.83. This graph clearly depicts the correlation between scoring PPG and resulting in an overall increase in points.
+- The correlation between PIM and +/- is 0.16. Except for outliers, the lower a player's PIM, the more likely of a more positive +/- result.
+- Of the 2000+ entries, +2 to -2 is very dense. The winning team (blue) has a slightly above 0 stronger representation with an average +/- of slightly above 4 and the losing team at 2. When compare the two sets of values, the p-value supports that there is a very strong correlation between a more positive +/- and winning. 
+- The results of the box plots depicts how the winning team has far more consistency amongst its players. This is also supported by having less outliers than the losing team at each extremity.
+- When comparing the identified key stats for the season between the winning and losing team, it is apparent that the one stat with the most material difference and impact is the '+/-'.
 
-## Future Work
-This project is an ongoing effort, and future updates may include additional seasons, more in-depth analysis, and comparative studies with other championships. We welcome contributions and suggestions from the community to further enhance this repository.
+
+
+
+
+
+
+
+
+
 
 ## Conclusion
-By examining the age and nationality distributions of players on Stanley Cup-winning and losing teams since 1991, this project aims to provide insights into the factors that contribute to success in ice hockey. The findings of this analysis may be valuable for coaches, players, and fans alike, as they shed light on the characteristics of championship teams.
+This project aims to provide insights into the factors that contribute to success in hockey. The findings of this analysis may be valuable for coaches, players, and fans alike, as they shed light on the characteristics of championship teams.  These characteristics may be consider the makeup of a Stanley Cup winning team:  
+- Based on our overall analysis and supporting data, there is no material difference regarding age groups and winning.  Years of experience requires additional analysis.
+- There should be a heightened focus on recruiting European players.   Their hockey programs have significantly evolved, and the number of European players playing in the NHL is showing a steady increase, while the Canadian player representation is reducing.
+- It is favorable and improves the likelihood of winning to have more consistent contributing players vs having one or two superstars on the team.  The box plot comparing the +/- for the winning and losing teams, supports this theory as the winning team has less outliers than that of the losing team.  The +/- statistic is also the only key statistic analyzed that has a material difference in results when comparing the winning and losing team.
+
+## Future Work
+This project is an ongoing effort, and future updates may include additional seasons, and more in-depth analysis on suplimentary statistics. We welcome contributions and suggestions from the community to further enhance this repository.  We have outlined areas of work that are most important:
+- Age was used and not the years of expereince. Years of expereince is a valuable metric 
+- Nationality counts per team per season dropped considerably in 2012 and began to increase season following. Analysis of this is required
+- 
 
 ## Team Members
 Joel Demontigny, Ravina Kolsawala, Ron Brennan
