@@ -149,10 +149,10 @@ Glossary:
 
 Reference content:
 
-- https://statsapi.web.nhl.com/api/v1/teams
-- https://statsapi.web.nhl.com/api/v1/team/<ID>?expand=team.roster&season=<seasom>
-- https://statsapi.web.nhl.com/api/v1/people/<ID>
-- https://en.wikipedia.org/wiki/Ice_hockey_statistics#:~:text=Team%20statistics%20STK%20-%20winning%20or%20losing%20streak,tie%20%28Note%3A%20The%20NHL%20no%20longer%20uses%20ties. 
+- `https://statsapi.web.nhl.com/api/v1/teams`
+- `https://statsapi.web.nhl.com/api/v1/team/<ID>?expand=team.roster&season=<seasom>`
+- `https://statsapi.web.nhl.com/api/v1/people/<ID>`
+- `https://en.wikipedia.org/wiki/Ice_hockey_statistics#:~:text=Team%20statistics%20STK%20-%20winning%20or%20losing%20streak,tie%20%28Note%3A%20The%20NHL%20no%20longer%20uses%20ties.` 
 
 "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.“
 
