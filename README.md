@@ -140,26 +140,19 @@ Joel Demontigny, Ravina Kolsawala, Ron Brennan
 
 ## Appendix
 Glossary:
-
-PIM – Penalty Infraction Minutes – It is the cumulative total of time that a player has spent in the penalty box due to on ice infractions
-
-PPG – Power play goals – Number of goals the player has scored while his team was on the power play.
-
-PTS – Points – Scoring points, calculated as the sum of goals and assists.
-
-+/- – Plus/minus – The number of team even strength or shorthanded goals for minus the number of team even strength or shorthanded goals against while the player is on the ice.
-
-PPG – Power play goals – Number of goals the player has scored while his team was on the power play.
-
-OTG - Overtime Goal
-
+- PIM – Penalty Infraction Minutes – It is the cumulative total of time that a player has spent in the penalty box due to on ice infractions
+- PPG – Power play goals – Number of goals the player has scored while his team was on the power play.
+- PTS – Points – Scoring points, calculated as the sum of goals and assists.
+- +/- – Plus/minus – The number of team even strength or shorthanded goals for minus the number of team even strength or shorthanded goals against while the player is on the ice.
+- PPG – Power play goals – Number of goals the player has scored while his team was on the power play.
+- OTG - Overtime Goal
 
 Reference content:
 
-https://statsapi.web.nhl.com/api/v1/teams
-https://statsapi.web.nhl.com/api/v1/team/<ID>?expand=team.roster&season=<seasom>
-https://statsapi.web.nhl.com/api/v1/people/<ID>
-https://en.wikipedia.org/wiki/Ice_hockey_statistics#:~:text=Team%20statistics%20STK%20-%20winning%20or%20losing%20streak,tie%20%28Note%3A%20The%20NHL%20no%20longer%20uses%20ties.
+- https://statsapi.web.nhl.com/api/v1/teams
+- https://statsapi.web.nhl.com/api/v1/team/<ID>?expand=team.roster&season=<seasom>
+- https://statsapi.web.nhl.com/api/v1/people/<ID>
+- https://en.wikipedia.org/wiki/Ice_hockey_statistics#:~:text=Team%20statistics%20STK%20-%20winning%20or%20losing%20streak,tie%20%28Note%3A%20The%20NHL%20no%20longer%20uses%20ties. 
 
 "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.“
 
