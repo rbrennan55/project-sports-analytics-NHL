@@ -121,16 +121,6 @@ The main focus of this project is to compare the nationality distributions and p
 - The results of the box plots depicts how the winning team has far more consistency amongst its players. This is also supported by having less outliers than the losing team at each extremity.
 - When comparing the identified key stats for the season between the winning and losing team, it is apparent that the one stat with the most material difference and impact is the '+/-'.
 
-
-
-
-
-
-
-
-
-
-
 ## Conclusion
 This project aims to provide insights into the factors that contribute to success in hockey. The findings of this analysis may be valuable for coaches, players, and fans alike, as they shed light on the characteristics of championship teams.  These characteristics may be consider the makeup of a Stanley Cup winning team:  
 - Based on our overall analysis and supporting data, there is no material difference regarding age groups and winning.  Years of experience requires additional analysis.
@@ -139,9 +129,9 @@ This project aims to provide insights into the factors that contribute to succes
 
 ## Future Work
 This project is an ongoing effort, and future updates may include additional seasons, and more in-depth analysis on suplimentary statistics. We welcome contributions and suggestions from the community to further enhance this repository.  We have outlined areas of work that are most important:
-- Age was used and not the years of expereince. Years of expereince is a valuable metric 
+- Age was used and not the years of expereince. Years of expereince is a valuable metric and should be added. 
+- Game-by-Game analysis should provide more gandular analysis.
 - Nationality counts per team per season dropped considerably in 2012 and began to increase season following. Analysis of this is required
-- 
 
 ## Team Members
 Joel Demontigny, Ravina Kolsawala, Ron Brennan
