@@ -126,7 +126,9 @@ The main focus of this project is to compare the nationality distributions and p
 This project aims to provide insights into the factors that contribute to success in hockey. The findings of this analysis may be valuable for coaches, players, and fans alike, as they shed light on the characteristics of championship teams.  These characteristics may be consider the makeup of a Stanley Cup winning team:  
 - Based on our overall analysis and supporting data, there is no material difference regarding age groups and winning.  Years of experience requires additional analysis.
 - There should be a heightened focus on recruiting European players.   Their hockey programs have significantly evolved, and the number of European players playing in the NHL is showing a steady increase, while the Canadian player representation is reducing.
+- More PPG equates to a higher overall point value and niot a substitute for regular goals.
 - It is favorable and improves the likelihood of winning to have more consistency amongst contributing players vs having one or two superstars on the team.  The box plot comparing the +/- statistic supports this theor as the winning team has less outliers and more consistency when compared to the losing team.  The +/- statistic is also the only key statistic analyzed that has a material difference(100% increase) in results when comparing the winning and losing teams.
+- Future analysis reviewing Stanley Cup Finals' data only, can provide greater variability in data points and provide additional trending, influencing additional recommendations.
 
 ## Future Work
 This project is an ongoing effort, and future updates may include additional seasons, and more in-depth analysis on suplimentary statistics. We welcome contributions and suggestions from the community to further enhance this repository.  We have outlined areas of work that are most important:
